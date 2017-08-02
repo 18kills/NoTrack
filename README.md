@@ -6,6 +6,12 @@ Changes all of the proxys after an amount of time that the user sets
 Before it connects to a proxy it first checks if it is up by scanning the ip address and the port             
 If the proxy is not up then it tries the next proxy               
 
+### How to Use
+1) Setup NoTrack
+2) Add more proxies to lists(Optional)
+3) Enter source run.sh to start NoTrack
+
+
 ### How to Setup
 1) Compile the setup.sh file
 2) Run the setup.sh file
