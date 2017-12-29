@@ -1,8 +1,8 @@
 # NoTrack
-Proxy loop for linux terminal writen in python
+Proxy loop for linux terminal writen in python and bash
 
 Sets an http, https, and sock proxy for the terminal                      
-Changes all of the proxys after an amount of time that the user sets                           
+Changes all of the proxies after an amount of time that the user sets                           
 Before it connects to a proxy it first checks if it is up by scanning the ip address and the port             
 If the proxy is not up then it tries the next proxy               
 
