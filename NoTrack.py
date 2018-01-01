@@ -1,5 +1,8 @@
 #!/usr/bin/python
-import threading, socket, sys, random
+import threading
+import socket
+import sys
+import random
 from datetime import datetime
 #variables
 https=[]
@@ -10,7 +13,7 @@ proxyTypes=['https','socks','http']
 proxyLists=[https,socks,http]
 #Number of threads to use. one for each list
 threadNum=len(proxyLists)
-
+#Returns the number of proxies in the list type argument
 def getLen(Type):
 	return len('proxies/'+Type+'.list')
 
