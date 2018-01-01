@@ -1,5 +1,5 @@
 # NoTrack
-Proxy loop for linux terminal writen in python and bash
+Proxy loop for linux terminal written in python and bash
 
 Sets an http, https, and sock proxy for the terminal                      
 Changes all of the proxies after an amount of time that the user sets                           
@@ -10,6 +10,8 @@ If the proxy is not up then it tries the next proxy
 1) Setup NoTrack
 2) Add more proxies to lists(Optional)
 3) Enter source run.sh to start NoTrack
+!!!!!!!NOTE!!!!!!!!!
+Will not work if not run with source
 
 
 ### How to Setup
